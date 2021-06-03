@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center|top"
+    android:layout_marginTop="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGray"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:id="@+id/homelvl"
+        android:text="@string/homelvl"
+        android:layout_gravity="end|top"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        style="@style/lvlbutton" />
+
+
+    <Button
+        android:id="@+id/testImage"
+        style="@style/lvlbutton"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="settings"
+        android:text="Играть"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/records"
+        style="@style/lvlbutton"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="settings"
+        android:text="@string/records"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/settings"
+        style="@style/lvlbutton"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="settings"
+        android:text="@string/settings"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/info"
+        style="@style/lvlbutton"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="250dp"
+        android:onClick="info"
+        android:text="инфо"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+

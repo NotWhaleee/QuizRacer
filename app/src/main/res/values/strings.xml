@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quiz Racer</string>
+    <string name="play">Играть</string>
+    <string name="settings">Настройки</string>
+    <string name="answer1" />
+    <string name="answer2" />
+    <string name="answer3" />
+    <string name="answer4" />
+    <string name="num1" />
+    <string name="sym" />
+    <string name="num2" />
+    <string name="questionm">= ?</string>
+    <string name="lvl1" />
+    <string name="lvl2" />
+    <string name="lvl3" />
+    <string name="settingtitle" />
+    <string name="homelvl" />
+    <string name="answerNO">НЕТ</string>
+    <string name="answerYES">ДА</string>
+    <string name="question">Хотите сбросить рекорд?</string>
+    <string name="records">Рекорд: 0</string>
+</resources>
